@@ -1,0 +1,14 @@
+{
+  "name": "asyncronismo",
+  "version": "1.0.0",
+  "description": "practica de javascript en el curso de platzi escuela de js para react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andresflorez0799",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
