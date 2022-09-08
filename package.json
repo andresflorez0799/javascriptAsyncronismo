@@ -9,6 +9,8 @@
   "author": "andresflorez0799",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
