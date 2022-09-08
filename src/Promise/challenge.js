@@ -9,4 +9,6 @@ fetch(`${api}/products`)
 .then(product => fetch(`${api}/categories/${product.category.id}`))
 .then(response => response.json())
 .then(category => console.log(category))
-.catch(error => console.error(error));
+.catch(error => console.error(error))
+.finally(() => console.log("Proceso terminado"));
+
